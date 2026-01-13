@@ -5,8 +5,12 @@ int main(){
     int n;
     cout<<"Enter a number : ";
     cin>>n;
+    if(n==2){
+        cout<<"A prime number"<<endl;
+    }
 
-    for(int i = 2;i<n;i++){
+    else{
+        for(int i = 2;i<n;i++){
         if(n%i==0){
             cout<<"Not a prime number"<<endl;
             break;
@@ -14,5 +18,6 @@ int main(){
             cout<<"A prime number"<<endl;
             break;
         }
+    }
     }
 }
