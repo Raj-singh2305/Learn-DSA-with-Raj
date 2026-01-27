@@ -1,1 +1,0 @@
- cout<<"The counting of "<<arr[i]<<" is: "<<count<<endl;
