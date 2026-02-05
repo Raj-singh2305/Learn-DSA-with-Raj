@@ -6,7 +6,7 @@ void printingArr(int arr[], int n){
         cout<<arr[i]<<" ";
     }
 }
-
+//selectionSORT
 void SelectionSort(int arr[], int n) {
 
     for(int i = 0; i < n - 1; i++) {
