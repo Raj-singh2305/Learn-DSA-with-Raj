@@ -6,7 +6,7 @@ int main(){
     int basic[3]={1,2,3}; // C-style array
     array<int,3> a={1,2,3}; // STL array
 
-    int size = a.size(); // size of the array
+    int size = a.size(); // size of the array=> 3
 
     for(int i=0;i<size;i++){
         cout<<a[i]<<" ";
