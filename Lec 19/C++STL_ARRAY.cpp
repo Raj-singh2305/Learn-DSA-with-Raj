@@ -13,7 +13,7 @@ int main(){
     }
     cout<<endl;
 
-    cout<<"Element at 2nd index: "<<a.at(2)<<endl; // access element at index 2
+    cout<<"Element at 2nd index: "<<a.at(2)<<endl; // access element at index 2 => a[2]
 
     cout<<"empty or not: "<<a.empty()<<endl; // check if the array is empty
 
